@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce</title>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="mobilemenu">
+                <div class="logo">
+                    <img src="https://portotheme.com/html/porto_ecommerce/assets/images/logo-black.png" alt="">
+                </div>
+                <nav class="menu">
+                    <ul class="menulist">
+                        <li><a href="">Home</a></li>
+                        <li>
+                            <a href="">Categories <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="">VARIATION 1</a></li>
+                                <li><a href="">Fullwidth Banner</a></li>
+                                <li><a href="">Boxed SliderBanner</a></li>
+                                <li><a href="">Boxed ImageBanner</a></li>
+                                <li><a href="">Left Sidebar</a></li>
+                                <li><a href="">Right Sidebar</a></li>
+                                <li><a href="">Off Canvas Filter</a></li>
+                                <li><a href="">Horizontal Filter1</a></li>
+                                <li><a href="">Horizontal Filter2</a></li>
+                            </ul>
+                            <ul class="sub-menu">
+                                <li><a href="">VARIATION 2</a></li>
+                                <li><a href="">List Types</a></li>
+                                <li><a href="">Ajax Infinite Scroll</a></li>
+                                <li><a href="">3 Columns Products</a></li>
+                                <li><a href="">4 Columns Products</a></li>
+                                <li><a href="">5 Columns Products</a></li>
+                                <li><a href="">6 Columns Products</a></li>
+                                <li><a href="">7 Columns Products</a></li>
+                                <li><a href="">8 Columns Products</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Products<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="">PRODUCT PAGES</a></li>
+                                <li><a href="">SIMPLE PRODUCT</a></li>
+                                <li><a href="">VARIABLE PRODUCT</a></li>
+                                <li><a href="">SALE PRODUCT</a></li>
+                                <li><a href="">FEATURED & ON SALE</a></li>
+                                <li><a href="">WITH CUSTOM TAB</a></li>
+                                <li><a href="">WITH LEFT SIDEBAR</a></li>
+                                <li><a href="">WITH RIGHT SIDEBAR</a></li>
+                                <li><a href="">ADD CART STICKY</a></li>
+                            </ul>
+                            <ul class="sub-menu">
+                                <li><a href="">PRODUCT LAYOUTS</a></li>
+                                <li><a href="">EXTENDED LAYOUT</a></li>
+                                <li><a href="">GRID IMAGE</a></li>
+                                <li><a href="">FULL WIDTH LAYOUT</a></li>
+                                <li><a href="">STICKY INFO</a></li>
+                                <li><a href="">LEFT & RIGHT STICKY</a></li>
+                                <li><a href="">TRANSPARENT IMAGE</a></li>
+                                <li><a href="">CENTER VERTICAL</a></li>
+                                <li><a href="">BUILD YOUR OWN</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Pages<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="">Wishlist</a></li>
+                                <li><a href="">Shopping Cart</a></li>
+                                <li><a href="">Checkout</a></li>
+                                <li><a href="">Dashboard</a></li>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Blog</a>
+                                    <ul>
+                                        <li><a href="">Blog</a></li>
+                                        <li><a href="">Blog Post</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Contact Us</a></li>
+                                <li><a href="">Login</a></li>
+                                <li><a href="">Forgot Password</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Buy Porto!</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-regular fa-heart"></i>
+                <div class="shopbag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span>3</span>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="homeslider">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide1">
+                        <div class="container">
+                            <div class="content">
+                                <h2>Winter Fashion Trends</h2>
+                                <h3>Get up to 30% off</h3>
+                                <h4>on Jackets</h4>
+                                <h5>Starting at <span>199<sup>99</sup><sup>$</sup></span></h5>
+                                <a href="button">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide2">
+                        <div class="container">
+                            <div class="text">
+                                <h2>New Season Hats </h2>
+                                <h3> <small> Up to </small>20%off</h3>
+                                <hr class="border">
+                                <div>
+                                    <h4>Starting at <span><sup>$</sup>19<sup>99</sup></span></h4>
+                                    <a href="button">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+        <section class="shopcategory">
+            <div class="container">
+                <h2>Shop By Category</h2>
+                <div class="cards">
+                    <div class="card">
+                        <div class="inner">
+                            <div class="img">
+                                <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/categories/category-1.jpg"
+                                    alt="">
+                            </div>
+                            <div class="content">
+                                <p>Sunglasses</p>
+                                <span>8 products</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="inner">
+                            <div class="img">
+                                <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/categories/category-2.jpg"
+                                    alt="">
+                            </div>
+                            <div class="content">
+                                <p>Bags</p>
+                                <span>4 products</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="inner">
+                            <div class="img">
+                                <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/categories/category-3.jpg"
+                                    alt="">
+                            </div>
+                            <div class="content">
+                                <p>Electronics</p>
+                                <span>8 products</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="inner">
+                            <div class="img">
+                                <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/categories/category-4.jpg"
+                                    alt="">
+                            </div>
+                            <div class="content">
+                                <p>Fashion</p>
+                                <span>11 products</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="inner">
+                            <div class="img">
+                                <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/categories/category-5.jpg"
+                                    alt="">
+                            </div>
+                            <div class="content">
+                                <p>Headphone</p>
+                                <span>3 products</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="inner">
+                            <div class="img">
+                                <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/categories/category-6.jpg"
+                                    alt="">
+                            </div>
+                            <div class="content">
+                                <p>Shoes</p>
+                                <span>4 products</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="homebanner">
+            <div class="container">
+                <div class="cards">
+                    <div class="card">
+                        <div class="img">
+                            <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/banners/home-banner1.jpg"
+                                alt="">
+                            <div class="content">
+                                <h3>Sunglasses Sale</h3>
+                                <h4>See all and find yours</h4>
+                                <button>Shop By Glasses</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="img">
+                            <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/banners/home-banner2.jpg"
+                                alt="">
+                            <div class="content">
+                                <h3>Cosmetics Trends</h3>
+                                <h4>Browse in all our categories</h4>
+                                <button>Shop By Glasses</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card3">
+                        <div class="img">
+                            <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/banners/home-banner3.jpg"
+                                alt="">
+                            <div class="content">
+                                <h3>Fashion Summer Sale</h3>
+                                <h4>Browse in all our categories</h4>
+                                <button>Shop By Fashion</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card4">
+                        <div class="img">
+                            <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/banners/home-banner4.jpg"
+                                alt="">
+                            <div class="content">
+                                <h3>UP TO 70% IN ALL BAGS</h3>
+                                <h4>Starting at $99</h4>
+                                <button>Shop By Bags</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product">
+            <div class="container">
+                <h2>Popular Products</h2>
+                <div class="cards">
+                    <div class="card">
+                        <div class="img">
+                            <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/products/product-1.jpg"
+                                alt="">
+                            <span class="hot">HOT</span>
+                            <span class="sale">-20%</span>
+                        </div>
+                        <div class="icon-group">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <button><a href="">Quick View</a></button>
+                        <div class="product-details">
+                            <a href="">category</a>
+                            <p>Women Shoes</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span><del>$59.00</del>$49.00</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/products/product-2-2.jpg"
+                                alt="">
+                            <span class="hot">HOT</span>
+                            <span class="sale">-20%</span>
+                        </div>
+                        <div class="icon-group">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <button><a href="">Quick View</a></button>
+                        <div class="product-details">
+                            <a href="">category</a>
+                            <p>Porto Transparent Images</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span><del>$59.00</del>$49.00</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/products/product-3.jpg"
+                                alt="">
+                        </div>
+                        <div class="icon-group">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <button><a href="">Quick View</a></button>
+                        <div class="product-details">
+                            <a href="">category</a>
+                            <p>Ideapad</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span><del>$59.00</del>$49.00</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/products/product-4-2.jpg"
+                                alt="">
+                        </div>
+                        <div class="icon-group">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <button><a href="">Quick View</a></button>
+                        <div class="product-details">
+                            <a href="">category</a>
+                            <p>Black Men Shoes</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span><del>$59.00</del>$49.00</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/products/product-5.jpg"
+                                alt="">
+                        </div>
+                        <div class="icon-group">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <button><a href="">Quick View</a></button>
+                        <div class="product-details">
+                            <a href="">category</a>
+                            <p>Watch</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span><del>$59.00</del>$49.00</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/products/product-6-2.jpg"
+                                alt="">
+                            <span class="hot">HOT</span>
+                        </div>
+                        <div class="icon-group">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <button><a href="">Quick View</a></button>
+                        <div class="product-details">
+                            <a href="">category</a>
+                            <p>Women Dress</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span><del>$59.00</del>$49.00</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/products/product-7.jpg"
+                                alt="">
+                        </div>
+                        <div class="icon-group">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <button><a href="">Quick View</a></button>
+                        <div class="product-details">
+                            <a href="">category</a>
+                            <p>Black Bag</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span><del>$59.00</del>$49.00</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/products/product-8.jpg"
+                                alt="">
+                        </div>
+                        <div class="icon-group">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <button><a href="">Quick View</a></button>
+                        <div class="product-details">
+                            <a href="">category</a>
+                            <p>Porto Both Sticky Info</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span><del>$59.00</del>$49.00</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/products/product-9-2.jpg"
+                                alt="">
+                        </div>
+                        <div class="icon-group">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <button><a href="">Quick View</a></button>
+                        <div class="product-details">
+                            <a href="">category</a>
+                            <p>Glasses</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span><del>$59.00</del>$49.00</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/products/product-10.jpg"
+                                alt="">
+                        </div>
+                        <div class="icon-group">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <button><a href="">Quick View</a></button>
+                        <div class="product-details">
+                            <a href="">category</a>
+                            <p>Black Men Coat</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span><del>$59.00</del>$49.00</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/products/product-11.jpg"
+                                alt="">
+                        </div>
+                        <div class="icon-group">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <button><a href="">Quick View</a></button>
+                        <div class="product-details">
+                            <a href="">category</a>
+                            <p>Girl High Shoes</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span><del>$59.00</del>$49.00</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img">
+                            <img src="https://portotheme.com/html/porto_ecommerce/assets/images/demoes/demo3/products/product-12.jpg"
+                                alt="">
+                        </div>
+                        <div class="icon-group">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <button><a href="">Quick View</a></button>
+                        <div class="product-details">
+                            <a href="">category</a>
+                            <p>Women Shoes</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span><del>$59.00</del>$49.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="support">
+            <div class="container">
+                <div class="boxes">
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-headset"></i></div>
+                        <div class="content">
+                            <h3>Customer Support</h3>
+                            <h4>Need Assistence?</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec vestibulum magna,
+                                et dapibus lacus. Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa-regular fa-credit-card"></i>
+                        </div>
+                        <div class="content">
+                            <h3>Secured Payment</h3>
+                            <h4>Safe & Fast</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec vestibulum magna,
+                                et dapibus lacus. Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-rotate-left"></i></div>
+                        <div class="content">
+                            <h3>Free Returns</h3>
+                            <h4>Easy & Free</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec vestibulum magna,
+                                et dapibus lacus. Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-truck-fast"></i></div>
+                        <div class="content">
+                            <h3>Free Shipping</h3>
+                            <h4>Orders Over $99</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec vestibulum magna,
+                                et dapibus lacus. Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="subscribe">
+                <div class="left">
+                    <div class="content">
+                        <h3>subscribe newsletter</h3>
+                        <p>Get all the latest information on Events, Sales and Offers.</p>
+                    </div>
+                    <form action="">
+                        <input type="email" placeholder="Email address...">
+                        <button>Subscribe</button>
+                    </form>
+                </div>
+                <div class="right">
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="widget">
+                <div class="widget-title">
+                    <h3>Contact Info</h3>
+                    <div class="link">
+                        <div class="content">
+                            <h4>ADDRESS:</h4>
+                            <a href="">1234 Street Name, City, England</a>
+                            <h4>EMAIL:</h4>
+                            <a href="">mail@example.com</a>
+                        </div>
+                        <div class="content">
+                            <h4>PHONE:</h4>
+                            <a href="">(123) 456-7890</a>
+                            <h4>WORKING DAYS/HOURS:</h4>
+                            <a href="">Mon - Sun / 9:00 AM - 8:00 PM</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget-title">
+                    <h3>My Account</h3>
+                    <div class="link">
+                        <ul class="content">
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">My Account</a></li>
+                        </ul>
+                        <ul class="content">
+                            <li><a href="">Orders History</a></li>
+                            <li><a href="">Advanced Search</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="widget-title">
+                    <h3>Main Features</h3>
+                    <div class="link">
+                        <ul class="content">
+                            <li><a href="">Super Fast HTML Template</a></li>
+                            <li><a href="">1st Fully working Ajax Theme</a></li>
+                            <li><a href="">33 Unique Shop Layouts</a></li>
+                        </ul>
+                        <ul class="content">
+                            <li><a href="">Powerful Admin Panel</a></li>
+                            <li><a href="">Mobile & Retina Optimized</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="payment">
+                <span>Porto eCommerce. Developed by Murad Bayramov © 2021. All Rights Reserved</span>
+                <div class="credit">
+                    <img src="https://portotheme.com/html/porto_ecommerce/assets/images/payments/payment-visa.svg"
+                        alt="">
+                    <img src="https://portotheme.com/html/porto_ecommerce/assets/images/payments/payment-paypal.svg"
+                        alt="">
+                    <img src="https://portotheme.com/html/porto_ecommerce/assets/images/payments/payment-stripe.png"
+                        alt="">
+                    <img src="https://portotheme.com/html/porto_ecommerce/assets/images/payments/payment-verisign.svg"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
